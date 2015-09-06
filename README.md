@@ -8,6 +8,8 @@ ReactPHP HTTP daemon that resolves GEO information on given IP
 
 Get the database file from [official SypexGEO site](https://sypexgeo.net/ru/download/).
 
+Install [composer](http://getcomposer.org/download/) and run `composer install` or (`php composer.phar install`).
+
 Start the daemon:
 
 ```bash
