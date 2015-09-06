@@ -1,0 +1,15 @@
+{
+    "name": "devgroup/sypex-geo-daemon",
+    "description": "Geo daemon on ReactPHP that resolves GEO information on given IP using SypexGeo database",
+    "require": {
+        "react/http": "^0.4.1",
+        "ulrichsg/getopt-php": "^2.3.0"
+    },
+    "authors": [
+        {
+            "name": "Alexander Kozhevnikov",
+            "email": "b37hr3z3n@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
