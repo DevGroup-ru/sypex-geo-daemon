@@ -6,7 +6,7 @@ ReactPHP HTTP daemon that resolves GEO information on given IP
 
 *Tip:* This daemon works extremely fast with PHP7!
 
-Get the database file from [official SypexGEO site](https://sypexgeo.net/ru/download/).
+Get the database file from [official SypexGEO site](https://sypexgeo.net/ru/download/). You need 'Sypex Geo City' database in UTF-8 encoding.
 
 Install [composer](http://getcomposer.org/download/) and run `composer install` or (`php composer.phar install`).
 
