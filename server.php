@@ -84,6 +84,16 @@ try {
                 $data['time'] = number_format($time_end - $time_start, 12);
                 $response->end(json_encode($data));
             }
+        } elseif (isset($get['ping'])) {
+            $response->writeHead(200, array('Content-Type' => 'text/html'));
+            $response->end('pong');
+        } elseif (isset($get['ping-json'])) {
+            $response->writeHead(200, array('Content-Type' => 'application/json'));
+            $response->end(json_encode([
+                'error' => false,
+                'success' => true,
+                'message' => 'pong',
+            ]));
         } else {
             // if ip is not provided
             $response->writeHead(400, array('Content-Type' => 'application/json'));

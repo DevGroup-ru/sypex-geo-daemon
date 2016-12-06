@@ -48,3 +48,7 @@ For example this requests `http://127.0.0.1:16001/?ip=213.180.204.3` gives the f
     "error": false
 }
 ```
+
+## Ping / Status monitoring
+
+You can ping the daemon for html response `http://0.0.0.0:16001/?ping=1` and `http://0.0.0.0:16001/?ping-json=1` for json response.
